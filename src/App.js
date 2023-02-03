@@ -1,16 +1,14 @@
 
 import './App.css';
-import MyDiv1 from './01/MyDiv1';
-import MyDiv2 from './01/MyDiv2';
-import MyClock from './01/MyClock';
+//import Frcst from './04/Frcst';
+//import Mydiv from './03/Mydiv';
+import Taccident from './05/Taccident';
 
 const App = () => {
     return (
-      <div className="App-header">
-        <MyDiv1 />
-        <MyDiv2 />
-        <MyClock />
-      </div>
+        //<Frcst/>
+        //<Mydiv/>//<></>로 싸면 여러장도 가능
+        <Taccident/>
     );
   }
 
